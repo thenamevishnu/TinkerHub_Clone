@@ -1,0 +1,688 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+}
+.header{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 0;
+    background-color: #fdfdfd;
+    border: 1.3px solid rgb(231, 225, 225);
+}
+.logo img{
+    position: relative;
+    display: flex;
+    margin-left: 130px;
+    margin-top:26px;
+}
+.nav-menu{
+    float: right;
+    margin-right: 178px;
+    margin-top: -40px;
+}
+.nav-menu ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 31px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
+    font-size: 14px;
+    color: gray;
+}
+.nav-menu ul li:hover{
+    cursor: pointer;
+    color:rgb(37, 101, 238);
+}
+.first-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 680px;
+    justify-content: center;
+    border: none;
+    box-shadow: 1px 2px 3px #d5c9c9;
+}
+.first-section{
+    position: relative;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    margin-top: 70px;
+}
+.first-section h6{
+    display: block;
+    position: relative;
+    justify-content: center;
+    
+    font-weight: 500;
+    font-size: 52px;
+    margin-top: 95px;
+    margin-left: 135px;
+}
+.first-section span{
+    display: block;
+    color: gray;
+    line-height: 1.5;
+    margin-top: -89px;
+    margin-left: 140px;
+    font-size: 19px;
+    font-weight: 700;
+    
+}
+.first-section p{
+    display: block;
+    color: gray;
+    line-height: 1.5;
+    margin-top: 41px;
+    margin-left: 140px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.button1{
+    width: 20%;
+    height: 45px;
+    border: 0px;
+    border-radius: 6px;
+    font-size: 17px;
+    color: whitesmoke;
+    background-color: rgb(1, 162, 210);
+    margin-left: 139px;
+    margin-top: 18px;
+    box-shadow: 1px 1px 3px #bcccda;
+    cursor: pointer;
+}
+.button2{
+    width:20%;
+    height: 45px;
+    border: none;
+    background-color: powderblue;
+    box-shadow: 1px 1px 3px #bcccda;
+    border-color: #bcccda;
+    border-radius: 6px;
+    font-size: 17px;
+    color: rgb(96, 185, 220);
+    margin-left: 15px;
+    cursor: pointer;
+}
+.button2:hover{
+    color:#1880e1;
+}
+.right-float{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    float: right;
+    width: 50%;
+}
+.second-container{
+    display: flex;
+    position: relative;
+    margin-top: 9%;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    border: none;
+    box-shadow: 1px 1px 3px #d5c9c9;
+}
+.second-section{
+    position: relative;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    margin-top: -68px;
+}
+.second-section h6{
+    display: block;
+    position: relative;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 52px;
+    margin-top: 95px;
+    margin-left: 135px;
+}
+.second-section span{
+    display: block;
+    color: gray;
+    line-height: 1.4;
+    margin-top: -90px;
+    margin-left: 140px;
+    font-size: 27px;
+    font-weight: 600;
+    
+}
+.second-section p{
+    display: block;
+    color: gray;
+    line-height: 1.4;
+    margin-top: 30px;
+    margin-left: 140px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.third-container{
+    display: flex;
+    position: relative;
+    margin-top: 9%;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    border: none;
+    box-shadow: 1px 1px 3px #d5c9c9;
+}
+.third-section h6{
+    display: block;
+    position: relative;
+    justify-content: center;
+    font-size: 52px;
+    font-weight: 500;
+    margin-left: 147px;
+    margin-top: 47px;
+}
+.third-section p{
+    display: block;
+    position: relative;
+    justify-content: center;
+    color: rgb(102, 96, 96);
+    margin-left: 148px;
+    margin-right: 61px;
+    margin-top: -79px;
+    line-height: 1.5;
+}
+.fourth-container{
+    display: flex;
+    position: relative;
+    margin-top: 9%;
+    width: 100%;
+    height: 260px;
+    justify-content: center;
+    border: none;
+}
+.fourth-section h6{
+    display: block;
+    position: relative;
+    justify-content: center;
+    font-size: 59px;
+    font-weight: 500;
+    margin-left: -390px;
+    margin-top: 47px;
+}
+.fourth-section p{
+    display: block;
+    position: relative;
+    justify-content: center;
+    color: rgb(102, 96, 96);
+    font-size: 23px;
+    margin-left: -384px;
+    margin-top: -114px;
+    line-height: 1.5;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    gap:70px;
+    margin-left: 132px;
+    margin-right: 169px;
+    font-weight: 600;
+  }
+  
+.grid-container > div {
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top:50px;
+    font-size: 38px;
+}
+.fifth-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 156px;
+    padding-top: 94px;
+    border-top: 1px solid #d5c9c9;
+} 
+.sixth-container{
+    display: inline;
+    position: relative;
+    justify-content: center;
+    padding-top: 300px;
+    width: 100%;
+    height:600px;
+}
+.sixth-section{
+    display: flex;
+    position: relative;
+    width:60%;
+    justify-content: center;
+    float: left;
+}
+.sixth-section .heading{
+    font-size: 60px;
+    display: flex;
+    white-space: nowrap;
+    margin-top: 240px;
+    margin-left: 108px;
+}
+.sixth-section span{
+    font-size: 15px;
+    margin-top: 340px;
+    margin-left: -780px;
+    line-height: 1.6;
+    font-size: 20px;
+    color: gray;
+}
+.sixth-section h3{
+    font-size: 60px;
+    display: flex;
+    white-space: nowrap;
+    margin-top: 240px;
+    margin-left: 108px;
+}
+.sixth-section p{
+    font-size: 15px;
+    margin-top: 340px;
+    margin-left: -780px;
+    line-height: 1.6;
+    font-size: 20px;
+    color: gray;
+}
+.sixth-section1{
+    display: flex;
+    float: left;
+    width:50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sixth-section1 h3{
+    display: flex;
+    white-space: nowrap;
+    float: left;
+    margin-top: 43px;
+    margin-left: 122px;
+    font-size: 40px;
+}
+.sixth-section1 p{
+    display: flex;
+    float: left;
+    margin-top: 109px;
+    margin-left: -410px;
+    color: gray;
+    font-size: 17.5px;
+    font-weight: 100;
+}
+.sixth-button{
+    display: inline;
+    position: relative;
+    justify-content: center;
+    margin-left: -908px;
+}
+.sixth-button .button1{
+    width: 20%;
+    height: 45px;
+    border: 0px;
+    border-radius: 6px;
+    font-size: 17px;
+    color: whitesmoke;
+    background-color: rgb(1, 162, 210);
+    margin-left: 139px;
+    margin-top: 700px;
+    box-shadow: 1px 1px 3px #bcccda;
+    cursor: pointer;
+}
+.sixth-button .button2{
+    width:20%;
+    height: 45px;
+    border: none;
+    background-color: powderblue;
+    box-shadow: 1px 1px 3px #bcccda;
+    border-color: #bcccda;
+    border-radius: 6px;
+    font-size: 17px;
+    color: rgb(96, 185, 220);
+    margin-left: 15px;
+    cursor: pointer;
+}
+.seventh-container{
+    display: flex;
+    position: relative;
+    height: 650px;
+    padding-top: 200px;
+    margin-top:180px;
+    border-top: 1px solid #d5c9c9;
+    width: 100%;
+    box-shadow: 1px 2px 3px #d5c9c9;
+}
+.seventh-section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 50%;
+    font-size: 63px;
+    margin-top: -38px;
+    margin-left: 125px;
+}
+.seventh-section div h6{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 49px;
+    margin-top: 18px;
+    margin-left: -83px;
+    font-weight: 500;
+    color: black;
+}
+.seventh-section div p{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 19px;
+    margin-top: -59px;
+    margin-left: 16px;
+    color:gray;
+}
+.seventh-section h5{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 55px;
+    margin-left: -334px;
+    font-weight: 630;
+}
+.seventh-section div span{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: -47px;
+    margin-left: 17px;
+    color: gray;
+}
+.eighth-container{
+    display: flex;
+    position: relative;
+    height: 650px;
+    margin-top:180px;
+    width: 100%;
+}
+.eighth-section div h6{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 49px;
+    margin-top: 18px;
+    margin-left: 47px;
+    font-weight: 500;
+    color: black;
+}
+.eighth-section div p{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 19px;
+    margin-top: -59px;
+    margin-left: 145px;
+    color: gray;
+}
+.ninth-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+.ninth-section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top:17px;
+    background-color: #edeff2;
+    width: 80%;
+    height: 160px;
+    border: none;
+    border-radius: 20px;
+}
+.ninth-section h4{
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 34px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.ninth-section p{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 63px;
+    margin-left: -167px;
+    margin-right: 48%;
+    font-size: 17px;
+    font-weight: 400;
+}
+.ninth-sub-section span{
+    display: flex;
+    position: relative;
+    float: right;
+    justify-content: center;
+    margin-top: 74px;
+    margin-left: -400px;
+    margin-right: 625%;
+    font-size: 27px;
+    font-weight: 400;
+    color: gray;
+}
+.ninth-sub-section div{
+    display: flex;
+    position: relative;
+    float: right;
+    justify-content: center;
+    margin-top: 88px;
+    margin-right: 435%;
+    font-size: 18px;
+    font-weight: 100;
+    color: #453d3d;
+}
+.tenth-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #ebe1e1;
+}
+.tenth-section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 160px;
+    padding-top: 220px;
+    font-size: 17px;
+}
+.tenth-section h4{
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -602px;
+    font-size: 42px;
+    font-weight: 600;
+}
+.paragraph{
+    display: flex; 
+    position: relative; 
+    justify-content: center; 
+    margin-top: 74px; 
+    margin-left: -791px; 
+    font-size: 20px; 
+    font-weight: 400;
+}
+.eleventh-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+.eleventh-section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 160px;
+    padding-top: 220px;
+    font-size: 17px;
+}
+.eleventh-section h4{
+    display: flex;
+    position: relative;
+    padding-left: 29%;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 640;
+    font-family: var(--font_family_ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
+}
+.paragraph1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 151px;
+    margin-left: -245px;
+    font-size: 20px;
+    font-weight: 400;
+}
+input[type=email]{
+    width: 15%;
+    height: 45px;
+    border: 1px solid blue;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+input[type=button]{
+    width: 6%;
+    height: 49px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.email-subscribe{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 37px;
+    margin-left: 8px;
+}
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    gap:40px;
+    margin-left: 140px;
+    margin-right: 169px;
+    font-weight: 600;
+  }
+  
+.grid-container-2 > div {
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top:-60px;
+    font-size: 38px;
+}
+.twelfth-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding-top: 200px;
+}
+.twelffth-section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 160px;
+    padding-top: 220px;
+    font-size: 17px;
+}
+.twelfth-section h6{
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+    padding-left: 29%;
+    justify-content: center;
+    font-size: 43px;
+    font-weight: 640;
+    font-family: var(--font_family_ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol');
+}
+.report-border{
+    border-radius: 10px;
+    border: 1px solid rgb(242, 235, 235);
+    width:390px;
+    height: 580px;
+    overflow: hidden;
+}
+.report-border:hover{
+    border-color:gray;
+}
+footer{
+    margin-top: 150px;
+    padding-top: 10px;
+    border-top: 1px solid #eee9e9;
+}
+footer img{
+    margin-left: 140px;
+    margin-top: 28px;
+}
+.footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+}
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: white;
+    gap: 110px;
+    margin-left: 140px;
+    margin-right: 366px;
+    font-weight: 600;
+    color: rgb(108, 105, 105);
+  }
+  
+.grid-container-3 > div {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    margin-top:-60px;
+    font-size: 14px;
+    line-height: 2.7;
+}
+.last-footer{
+    position: relative;
+    width: 40%;
+    font-size: 14px;
+    color: gray;
+    margin-top: 50px;
+    float: left;
+    margin-left: 150px;
+    line-height: 2;
+}
+.sponsored{
+    display: flex;
+    position: relative;
+    float: right;
+    padding-top: 60px;
+    margin-right: 74px;
+    font-size: 16px;
+}
